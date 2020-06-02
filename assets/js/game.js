@@ -7,8 +7,6 @@ var enemyNames = ["Roborto", "Amy Android", "Robo Trumble"];
 var enemyHealth = 50;
 var enemyAttack = 12;
 
-window.alert("Welcome to Robot Gladiators!");
-
 //NEW FIGHT FUNCTION
 var fight = function(enemyName) {
   while (playerHealth > 0 && enemyHealth > 0) {
@@ -72,4 +70,5 @@ for(var i = 0; i < enemyNames.length; i++) {
     enemyHealth = 50;
     fight(pickedEnemyName);
 }
+
 
